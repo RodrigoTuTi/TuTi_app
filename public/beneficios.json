@@ -1,0 +1,57 @@
+{
+    "items": {
+      "beneficios": [
+        {
+          "id": 1,
+          "title": "Controla tu inventario",
+          "icon":"../icons/inventario.png",
+          "color": "#6cb3db",
+          "body": "Administra costos y precios, conoce tu inversión en inventario.",
+          "b1":"Administra costos y precios",
+          "b2":"Conoce tu inversión en inventario",
+          "imageUrl": "./beneficios/W2.png"
+        },
+        {
+          "id": 2,
+          "title": "Vende fácil",
+          "icon":"../icons/ventas.png",
+          "color": "#dca946",
+          "body": "Escaneo de código de barras, registrar pagos con tarjeta.",
+          "b1":"Escaneo de código de barras",
+          "b2":"Registrar pagos con tarjeta",
+          "imageUrl": "./beneficios/W3.png"
+        },
+        {
+            "id": 3,
+            "title": "Compra sólo lo necesario",
+            "icon":"../icons/gastos.png",
+            "color":"#e7682e",
+            "body": "Gestión de proveedores, sugerencia y lista de compras.",
+            "b1":"Gestión de proveedores",
+            "b2":"Sugerencia y lista de compras",
+            "imageUrl": "./beneficios/W4.png"
+          },
+          {
+            "id": 4,
+            "title": "Analiza tu desempeño",
+            "icon":"../icons/analisis.png",
+            "color":"#58be7b",
+            "body": "Análisis de ventas, compras y utilidad, filtra por producto y fecha.",
+            "b1":"Análisis de ventas, compras y utilidad",
+            "b2":"Filtra por producto y fecha",
+            "imageUrl": "./beneficios/W5.png"
+          },
+          {
+            "id": 5,
+            "title": "Movilidad",
+            "icon":"../icons/configuracion.png",
+            "color":"#9741ad",
+            "body": "Múltiples dispositivos simultáneos, acesso remoto.",
+            "b1":"Múltiples dispositivos simultáneos",
+            "b2":"Acesso remoto",
+            "imageUrl": "./beneficios/W6.png"
+          }
+      ]
+    }
+  }
+  

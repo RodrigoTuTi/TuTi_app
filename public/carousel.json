@@ -1,0 +1,17 @@
+
+{
+    "alianzas": [
+        {
+          "id": 1,
+          "title": "Nuestras Alianzas",
+          "body": "Mantenemos una alianza con el Intituto Yucateco de Emprendedores en proyectos enfocados al desarrollo de los pequeños negocios en todo el estado de Yucatán.",
+          "imageUrl": "./iyem.webp"
+        },
+        {
+          "id": 2,
+          "title": "Nuestras Alianzas",
+          "body": "True Digital Consulting, empresa 100% mexicana enfocada en impulsar el desarrollo de las empresas por medio de la transformación digital. ",
+          "imageUrl": "./cx.png"
+        }
+    ]
+  }

@@ -1,0 +1,42 @@
+{
+    "items":{
+    "beneficios":[
+        {
+        "id": 1,
+        "title": "Abarrotes",
+        "icon":"../icons/inventario.png",
+        "color": "#9741ad"
+        },
+        {
+        "id": 2,
+        "title": "Estéticas",
+        "icon":"../icons/inventario.png",
+        "color": "#58be7b"
+        },
+        {
+        "id": 3,
+        "title": "Artesanías",
+        "icon":"../icons/inventario.png",
+        "color": "#e7682e"
+        },
+        {
+        "id": 4,
+        "title": "Zapaterías",
+        "icon":"../icons/inventario.png",
+        "color": "#dca946"
+        },
+        {
+        "id": 5,
+        "title": "Papelerías",
+        "icon":"../icons/inventario.png",
+        "color": "#6cb3db"
+        },
+        {
+        "id": 6,
+        "title": "Cafeterías",
+        "icon":"../icons/inventario.png",
+        "color": "black"       
+        }
+    ]
+}
+}

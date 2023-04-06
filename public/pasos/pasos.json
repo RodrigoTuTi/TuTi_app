@@ -1,0 +1,36 @@
+{
+    "articulos": {
+      "steps": [
+        {
+          "id": 1,
+          "title": "Paso 1",
+          "icon":"faGooglePay",
+          "body": "Descarga la app.",
+          "buttonText": "Descarga",
+          "color": "#e7682e",
+          "imageUrl": "../pasos/Descarga.png",
+          "href": "https://play.google.com/store/apps/details?id=com.companyname.tuti.maui"
+        },
+        {
+          "id": 2,
+          "title": "Paso 2",
+          "icon":"fa-regular fa-user",
+          "body": "Crea tu cuenta.",
+          "buttonText": "Regístrate",
+          "color": "#dca946",
+          "imageUrl": "../pasos/Inicio.png",
+          "href": "dsf"
+        },
+        {
+          "id": 3,
+          "title": "Paso 3",
+          "icon":"fa-regular fa-credit-card",
+          "body": "Paga tu suscripción.",
+          "buttonText": "Paga",
+          "color": "#58be7b",
+          "imageUrl": "../pasos/Paga.png",
+          "href": "dsf"
+        }
+      ]
+    }
+  }
