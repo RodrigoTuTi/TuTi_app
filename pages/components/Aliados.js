@@ -8,7 +8,7 @@ const Aliados = () => {
     <h2 className={styles.h2}>Alianzas estratégicas</h2>
     <Image
       src="/iyem.png"
-      width={200}
+      width={230}
       height={60}
       alt="First img"
     />
