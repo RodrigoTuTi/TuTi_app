@@ -10,7 +10,11 @@ import styles from "../../styles/Pasos.module.css"
 import Link from "next/link";
 import Logo from "../../public/logo.png";
 import Image from "next/image"
-import { faFontAwesomeLogoFull } from '@fortawesome/free-brands-svg-icons';
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faUser } from "@fortawesome/free-regular-svg-icons"
+import { faPaypal } from '@fortawesome/free-brands-svg-icons';
 
 const Pasos = () => {
 
@@ -36,7 +40,6 @@ const Pasos = () => {
       <p className={styles.subtitulo}>Sigue estos pasos y toma control de tu negocio.</p>
         <Row activeindex={index} onSelect={handleSelect} className={styles.row}>
           {steps.map((art) => (
-            // <Col >
               <Card className={styles.card} key={art.id}>
                   <Card.Title className={styles.title} >{art.title}</Card.Title>
                   <Card.Text className={styles.text}>{art.body}</Card.Text>
@@ -48,11 +51,10 @@ const Pasos = () => {
                 <Link href={art.href}>
                 <Button
                 className={styles.btn}
-                style={{ backgroundColor: art.color}}>
-                {art.buttonText}</Button>
+                >
+                {/* <FontAwesomeIcon icon={art.icon} />  */}{art.buttonText}</Button>
                 </Link>
               </Card>
-            // </Col>
           ))}
         </Row>
         
