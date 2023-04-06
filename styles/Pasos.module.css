@@ -1,8 +1,9 @@
 .mod{
     padding: 50px 0 100px;
     display: flex;
-    flex-direction:column;
     height: fit-content;
+    flex-direction: column;
+    margin: 0;
     width: 100%;
     background-color: rgba(60,132,206,1);
 }
@@ -16,19 +17,20 @@
     padding: 20px 0 0 ;
     font-size: 3.5rem;
 }
-.p{
+
+.subtitulo{
     color: #f1f1f1;
     display: flex;
     justify-content: center;
     padding: 0 0 20px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .row{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 60px;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
 
 }
 .card{
@@ -41,11 +43,14 @@
     width: 350px;
 }
 .title{
-    font-size: 2.2rem;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 15px;
 }
 .text{
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
 }
+
 .icon{
     width: 20px;
     margin-right: 5px;
@@ -55,7 +60,7 @@
 }
 .btn{
     width: 150px;
-    margin: 0 0 15px;
+    margin: 15px 0;
     border: none;
 }
 .btn:hover{
@@ -65,6 +70,7 @@ background-color:rgb(46, 185, 176) ;
 .imgGrande{
     width: 130px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 

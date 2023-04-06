@@ -33,12 +33,11 @@ const Pasos = () => {
                   className={styles.img_caratula}
                 />
       <h2 className={styles.h2}>Nunca fue tan fácil</h2>
-      <p className={styles.p}>Sigue estos pasos y toma control de tu negocio.</p>
+      <p className={styles.subtitulo}>Sigue estos pasos y toma control de tu negocio.</p>
         <Row activeindex={index} onSelect={handleSelect} className={styles.row}>
           {steps.map((art) => (
-            <Col key={art.id}>
-              <Card className={styles.card}>
-                <Card.Body>
+            // <Col >
+              <Card className={styles.card} key={art.id}>
                   <Card.Title className={styles.title} >{art.title}</Card.Title>
                   <Card.Text className={styles.text}>{art.body}</Card.Text>
                   <img 
@@ -46,7 +45,6 @@ const Pasos = () => {
                 alt="pasos a seguir"
                 className={styles.imgGrande}
                 />
-                </Card.Body>
                 <Link href={art.href}>
                 <Button
                 className={styles.btn}
@@ -54,7 +52,7 @@ const Pasos = () => {
                 {art.buttonText}</Button>
                 </Link>
               </Card>
-            </Col>
+            // </Col>
           ))}
         </Row>
         

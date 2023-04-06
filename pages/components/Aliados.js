@@ -5,7 +5,7 @@ import styles from "../../styles/Aliados.module.css"
 const Aliados = () => {
   return (
     <div className={styles.aliados}>
-    <h2 className={styles.p}>Alianzas estratégicas</h2>
+    <h2 className={styles.h2}>Alianzas estratégicas</h2>
     <Image
       src="/iyem.png"
       width={200}

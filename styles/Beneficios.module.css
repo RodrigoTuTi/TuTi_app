@@ -1,5 +1,4 @@
 .span{
-    /* border-bottom: solid 2px; */
     font-size: 1.7rem;
     color: #dca946;
     padding: 5px;
@@ -27,20 +26,18 @@
     border-radius: 10px;
 }
 .ben_h2{
-    padding: auto 0;
-    margin:  100px 0 0;
-    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     font-size: 3.5rem;
     color:rgb(46, 185, 176);
-    margin-bottom: 30px;
     width: 45%;
 
 }
 .parrafo{
     width: 60vw;
-    font-size: 1.5rem;
-    margin: 30px 0 100px 100px;
-    color:rgb(46, 185, 176);
+    font-size: 1.2rem;
+    margin: 30px 0 30px 100px;
 }
 .row{
     height: fit-content;
@@ -51,13 +48,14 @@
 
 .titulo{
     color: rgb(46, 185, 176);
-    font-size: 1.7rem;
+    font-size: 2rem;
     height: 70px;
     text-align:center;
 
 }
 .text{
-    height: 60px;
+    font-size: 1.2rem;
+    height: 80px;
     text-align:center;
     display: flex;
     margin-top: 20px;
@@ -77,12 +75,13 @@
     background: rgba(255, 255, 255, 0.3);
     border: none;
     color:black ;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     width: 350px;
 }
 .card1{
     height:fit-content;
     margin: 10px ;
+    padding: 28px;
     background: rgba(255, 255, 255, 0.3);
     border: none;
     color:#f1f1f1 ;
