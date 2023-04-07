@@ -19,14 +19,12 @@ const Navbar = () => {
   return (
     <header className={styles.header} id="inicio">
       <nav className={styles.navBar} id={styles.navBar}>
-        <Link href="/">
             <Image src={Logo} 
                   alt='TuTi Logo'
                   width={70}
                   height={70}
                   priority
                   className={styles.logo}/>
-        </Link>
         <div
           onClick={() => setNavActive(!navActive)}
           className={styles.nav__menu_bar}

@@ -9,7 +9,7 @@ import Google from '../../public/google-play.png'
 
 const Caratula = () => {
   return (
-    <div className={styles.caratula}>
+    <div className={styles.caratula} id="cartula">
         <div className={styles.titulo} >
             <h1 className={styles.titulo_h1}>Tu tienda en tus manos</h1>
             <p className={styles.titulo_p}>Vende, compra y lleva el control desde tu bosillo. Revoluciona tu negocio con nosotros, la aplicación más usada por los pequeños y medianos negocios. </p>

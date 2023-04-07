@@ -28,6 +28,7 @@ const Pasos = () => {
   return (
     
     <div className={styles.mod} id="pasos">
+      <Link href="#inicio">
       <Image src={Logo} 
                   alt='TuTi'
                   width={70}
@@ -36,6 +37,7 @@ const Pasos = () => {
                   priority
                   className={styles.img_caratula}
                 />
+                </Link>
       <h2 className={styles.h2}>Nunca fue tan fácil</h2>
       <p className={styles.subtitulo}>Sigue estos pasos y toma control de tu negocio.</p>
         <Row activeindex={index} onSelect={handleSelect} className={styles.row}>

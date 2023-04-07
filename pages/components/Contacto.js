@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Logo from "../../public/logo.png";
 import Image from "next/image";
+import Link from "next/link"
 
 const Contacto = () => {
 
@@ -38,6 +39,7 @@ const Contacto = () => {
 
   return (
 <div className={styles.comp} id='contacto'>
+<Link href="#inicio">
 <Image src={Logo} 
                   alt='TuTi'
                   width={70}
@@ -46,6 +48,7 @@ const Contacto = () => {
                   priority
                   className={styles.img_caratula}
                 />
+</Link>
 <h2 className={styles.comp_h2}>Escríbenos, queremos leerte</h2>
 
 <Form ref={form} onSubmit={sendEmail} className={styles.form1}>
