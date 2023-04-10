@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #9741ad;
+    background-color: rgb(46, 185, 176);
 }
 .img_caratula{
     margin-left: 40px;
@@ -27,8 +27,8 @@
 .btn{
     width: 200px;
     margin-top: 20px;
-    background-color: #9741ad;
-    border-color: #9741ad;
+    background-color: rgba(60,132,206,1);
+    border-color: rgba(60,132,206,1);
 }
 .btn:hover{
     background-color: #58be7b;

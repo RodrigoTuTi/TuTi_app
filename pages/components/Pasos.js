@@ -53,6 +53,7 @@ const Pasos = () => {
                 <Link href={art.href}>
                 <Button
                 className={styles.btn}
+                data-aos="fade-right"
                 >
                 {/* <FontAwesomeIcon icon={art.icon} />  */}{art.buttonText}</Button>
                 </Link>

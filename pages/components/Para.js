@@ -18,7 +18,7 @@ const Para = () => {
         {beneficios.map((item) => (
             <Card key={item.id} value={item.id} className={styles.card}>
                 
-                <Card.Title className={styles.title}><FontAwesomeIcon icon={faCheckCircle} style={{ color: item.color }}  className={styles.icon}/>{item.title}</Card.Title>
+                <Card.Title data-aos="flip-left" className={styles.title}><FontAwesomeIcon icon={faCheckCircle} style={{ color: item.color }}  className={styles.icon}/>{item.title}</Card.Title>
             </Card>
         ))}
     </Row>

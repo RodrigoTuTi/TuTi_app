@@ -71,7 +71,7 @@ const Contacto = () => {
   <Form.Label className={styles.label}>Mensaje</Form.Label>
   <Form.Control type="text" placeholder="Escríbenos un mensaje" name="message" 
   as="textarea" onChange={e => setMessage(e.target.value)} value={message}/>
-  <Button type="submit" value="Send" className={styles.btn}>
+  <Button data-aos="fade-right" type="submit" value="Send" className={styles.btn}>
 Enviar información
 </Button>
 </Form.Group>

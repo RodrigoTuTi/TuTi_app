@@ -45,6 +45,7 @@ const Beneficios = () => {
                 alt="icon"
                 className={styles.icon}
                 style={{ backgroundColor: item.color }}
+                data-aos="flip-left"
               />
               <Card.Body>
                 <Card.Title className={styles.titulo}>{item.title}</Card.Title>
@@ -61,7 +62,7 @@ const Beneficios = () => {
                 className={styles.img_demo}
               />
               
-                <Button className={styles.btn} href='#contacto'>Contáctanos</Button>
+                <Button className={styles.btn} href='#contacto' data-aos="flip-left" >Contáctanos</Button>
               
             </Card>
       </Row>
