@@ -1,14 +1,21 @@
 import React from 'react'
+import { useState } from 'react'
 import Image from "next/image"
 import Link from 'next/link'
 import TuTi from '../../public/TuTi.webp'
 import styles from '../../styles/Caratula.module.css'
 import Google from '../../public/google-play.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import ModalWhats from './ModalWhats'
+
 
 
 const Caratula = () => {
+
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+
   return (
     <div className={styles.caratula} id="cartula">
         <div className={styles.titulo} >
@@ -36,8 +43,9 @@ const Caratula = () => {
                 />
                 
         </div>
+        {show? <ModalWhats /> : null}
         <Link href="localhost:3000">
-        <FontAwesomeIcon icon={faWhatsapp} className={styles.whats} />
+        <FontAwesomeIcon icon={faWhatsapp} className={styles.whats} onClick={handleShow} />
         </Link>
     </div>
   )

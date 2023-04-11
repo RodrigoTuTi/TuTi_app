@@ -12,9 +12,15 @@ const Para = () => {
 
   return (
     <div className={styles.comp} id="giros">
+      <div className={styles.texto_giros}>
         <h2 className={styles.h2}>
-         Una app para todos los emprendedores</h2>
-    <Row>
+         Una app para todos</h2>
+         <p className={styles.parrafo}>TuTi es herramienta robusta y fácil de usar.<br></br>
+      <span className={styles.span}>Tú
+      </span> te encargas de operar tu negocio, 
+      <span className={styles.span}>nosotros</span> de todo lo demás.</p>
+      </div>
+    <Row className={styles.row}>
         {beneficios.map((item) => (
             <Card key={item.id} value={item.id} className={styles.card}>
                 

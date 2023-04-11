@@ -34,8 +34,6 @@ const Beneficios = () => {
           <h2 className={styles.ben_h2}>Mucho más que un punto de venta</h2>
         </div>
       )}
-      <p className={styles.parrafo}>Con TuTi, tendrás acceso a una herramienta robusta y fácil de usar.<br></br>
-      <span className={styles.span}>Tú</span> te encargas de operar tu negocio, <span className={styles.span}>nosotros</span> de todo lo demás</p>
       <Row activeindex={index} onSelect={handleSelect} className={styles.row}>
         {beneficios.map((item) => (
             <Card className={styles.card} key={item.id} value={item.id}>
