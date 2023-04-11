@@ -7,6 +7,7 @@ import Logo from "../../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import Alert from "react-bootstrap/Alert";
+import gabo from '../../public/gabo.png'
 
 const Contacto = () => {
   const [name, setName] = useState("");
@@ -109,6 +110,12 @@ const Contacto = () => {
           </Alert>
         </Form>
         <div className={styles.form2}>
+        <Image
+      src={gabo}
+      width={300}
+      height={300}
+      alt="First img"
+    />
           <p>info@tuti.com.mx</p>
           <p>Horario de atención</p>
           <p>Luneas a viernes 9:00am - 7:00pm</p>
