@@ -4,7 +4,8 @@ import Link from 'next/link'
 import TuTi from '../../public/TuTi.webp'
 import styles from '../../styles/Caratula.module.css'
 import Google from '../../public/google-play.png'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 
 const Caratula = () => {
@@ -35,6 +36,9 @@ const Caratula = () => {
                 />
                 
         </div>
+        <Link href="localhost:3000">
+        <FontAwesomeIcon icon={faWhatsapp} className={styles.whats} />
+        </Link>
     </div>
   )
 }
