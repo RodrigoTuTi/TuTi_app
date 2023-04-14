@@ -15,8 +15,11 @@ const Caratula = () => {
 
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
 
   return (
+    <>
     <div className={styles.caratula} id="cartula">
         <div className={styles.titulo} >
             <h1 className={styles.titulo_h1}>Tu tienda en tus manos</h1>
@@ -43,11 +46,12 @@ const Caratula = () => {
                 />
                 
         </div>
-        {show? <ModalWhats /> : null}
         <Link href="localhost:3000">
         <FontAwesomeIcon icon={faWhatsapp} className={styles.whats} onClick={handleShow} />
         </Link>
     </div>
+    <ModalWhats show={show} handleClose={handleClose} />
+    </>
   )
 }
 
