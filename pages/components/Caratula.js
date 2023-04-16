@@ -8,6 +8,7 @@ import Google from '../../public/google-play.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import ModalWhats from './ModalWhats'
+import FacebookW from './FacebookW'
 
 
 
@@ -51,6 +52,7 @@ const Caratula = () => {
         </Link>
     </div>
     <ModalWhats show={show} handleClose={handleClose} />
+    <FacebookW />
     </>
   )
 }
