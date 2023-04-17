@@ -34,11 +34,10 @@
     "standard": "^17.0.0"
   },
   "eslintConfig": {
-    "extends": [
-      "next/babel",
-      "next/core-web-vitals"
-    ]
-  },
+      "extends": [
+        "next"
+      ]
+    },
   "babelConfig": {
     "extends": [
       "next/babel"
