@@ -31,13 +31,15 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.18.6",
+    "prettier": "^2.8.7",
     "standard": "^17.0.0"
   },
   "eslintConfig": {
-      "extends": [
-        "next/babel","next/core-web-vitals"
-      ]
-    },
+    "extends": [
+      "next/babel",
+      "next/core-web-vitals"
+    ]
+  },
   "babelConfig": {
     "extends": [
       "next/babel"
