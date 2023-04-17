@@ -1,6 +1,10 @@
-{
-  "plugins": ["macros"],
-  "presets": ["@babel/preset-react"]
+// {
+//   "plugins": ["macros"],
+//   "presets": ["@babel/preset-react"]
 
-}
+// }
   
+{
+  "presets": ["next/babel"],
+  "plugins": []
+}
