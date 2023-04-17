@@ -17,6 +17,7 @@ const Caratula = () => {
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
+  const H = 'hola'
 
 
   return (
