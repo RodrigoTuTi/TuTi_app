@@ -35,7 +35,7 @@
   },
   "eslintConfig": {
       "extends": [
-        "next"
+        "next/babel","next/core-web-vitals"
       ]
     },
   "babelConfig": {
