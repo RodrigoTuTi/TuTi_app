@@ -1,5 +1,5 @@
 .mod{
-    padding: 50px 0 100px;
+    padding: 50px 0 120px;
     display: flex;
     height: fit-content;
     flex-direction: column;
@@ -29,7 +29,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
     
 
 }
@@ -40,6 +40,7 @@
     background: rgba(241, 241, 241, 0.4);
     border: none;
     color: #f1f1f1;
+    margin: 0 10px;
     width: 350px;
 }
 .title{
