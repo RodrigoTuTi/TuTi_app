@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import styles from "../../styles/Testimonials.module.css";
-import { alianzas }  from "../../public/carousel.json";
+import styles from "../styles/Testimonials.module.css";
+import { alianzas }  from "../public/carousel.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Testimonials = () => {

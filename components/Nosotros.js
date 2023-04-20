@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from '../../styles/Nosotros.module.css'
-import mollete from '../../public/somos/mollete.png'
-import mollete2 from '../../public/somos/mollete2.png'
+import styles from '../styles/Nosotros.module.css'
+import mollete from '../public/somos/mollete.png'
+import mollete2 from '../public/somos/mollete2.png'
 
 const Nosotros = () => {
   return (

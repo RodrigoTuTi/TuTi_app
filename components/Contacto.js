@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import styles from "../../styles/Contacto.module.css";
+import styles from "../styles/Contacto.module.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Logo from "../../public/logo.png";
+import Logo from "../public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import Alert from "react-bootstrap/Alert";
-import gabo from '../../public/gabo.png'
+import gabo from '../public/gabo.png'
 
 const Contacto = () => {
   const [name, setName] = useState("");

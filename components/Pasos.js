@@ -4,11 +4,11 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button  from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { articulos } from "../../public/pasos/pasos.json";
+import { articulos } from "../public/pasos/pasos.json";
 import { useState } from "react";
-import styles from "../../styles/Pasos.module.css"
+import styles from "../styles/Pasos.module.css"
 import Link from "next/link";
-import Logo from "../../public/logo.png";
+import Logo from "../public/logo.png";
 import Image from "next/image"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

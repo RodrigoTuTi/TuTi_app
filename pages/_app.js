@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Layout from './components/Layout'
 import SSRProvider from 'react-bootstrap/SSRProvider'
+import Layout from '../components/Layout'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect} from 'react'

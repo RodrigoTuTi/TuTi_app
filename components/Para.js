@@ -1,11 +1,11 @@
 import React from 'react'
-import { items } from '../../public/para/para.json'
+import { items } from '../public/para/para.json'
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faCheckCircle} from "@fortawesome/free-regular-svg-icons"
-import styles from "../../styles/Para.module.css"
+import styles from "../styles/Para.module.css"
 
 const Para = () => {
     const { beneficios } = items;

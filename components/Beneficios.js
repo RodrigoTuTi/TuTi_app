@@ -1,13 +1,13 @@
 import React from "react";
-import styles from "../../styles/Beneficios.module.css";
+import styles from "../styles/Beneficios.module.css";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { items } from "../../public/beneficios.json";
+import { items } from "../public/beneficios.json";
 import { useState, useEffect } from "react";
 import Video from "./Video";
-import Demo from "../../public/beneficios/Caro.png"
+import Demo from "../public/beneficios/Caro.png"
 import Image from "next/image"
 
 const Beneficios = () => {

@@ -1,12 +1,12 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import styles from "../../styles/ModalWhats.module.css"
+import styles from "../styles/ModalWhats.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Image from "next/image"
 import Link from "next/link"
-import Servicio from "../../public/modal/servicio.jpeg"
+import Servicio from "../public/modal/servicio.jpeg"
 
 const ModalWhats = ({show, handleClose}) => {
   return (

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "../../styles/Footer.module.css";
+import styles from "../styles/Footer.module.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { faFacebook } from "../../node_modules/@fortawesome/free-brands-svg-icons"
-import { faInstagram } from "../../node_modules/@fortawesome/free-brands-svg-icons"
-import { faYoutube } from "../../node_modules/@fortawesome/free-brands-svg-icons"
+import { faFacebook } from "../node_modules/@fortawesome/free-brands-svg-icons"
+import { faInstagram } from "../node_modules/@fortawesome/free-brands-svg-icons"
+import { faYoutube } from "../node_modules/@fortawesome/free-brands-svg-icons"
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

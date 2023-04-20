@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "../../public/logo.png";
+import Logo from "../public/logo.png";
 import NavItem from "./NavItem.js";
-import styles from '../../styles/NavBar.module.css';
+import styles from '../styles/NavBar.module.css';
 
 
 const MENU_LIST = [
